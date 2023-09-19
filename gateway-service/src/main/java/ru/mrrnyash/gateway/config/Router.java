@@ -12,7 +12,6 @@ import org.springframework.context.annotation.Configuration;
 @AllArgsConstructor
 public class Router {
 
-    @Autowired
     private final Filter filter;
 
     @Bean
