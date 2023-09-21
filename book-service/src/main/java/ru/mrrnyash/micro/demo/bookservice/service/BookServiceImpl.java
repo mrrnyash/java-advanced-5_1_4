@@ -18,10 +18,7 @@ public class BookServiceImpl implements BookService {
         return bookRepository.findAll();
     }
 
-    @Override
-    public void saveBook(Book book) {
-        bookRepository.save(book);
-    }
+
 
 
 }

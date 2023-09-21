@@ -1,12 +1,16 @@
 server:
-  port: 0
+  port: 8081
 
 eureka:
   client:
     service-url:
-      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+      defaultZone: http://localhost:8761/eureka
 
 spring:
   application:
     name: client-service
+
+feign:
+  circuitbreaker:
+    enabled: true
 

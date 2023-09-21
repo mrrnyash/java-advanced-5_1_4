@@ -19,8 +19,4 @@ public class BookRestController {
         return bookService.getAllBooks();
     }
 
-    @PostMapping
-    public void saveBook(@RequestBody Book book) {
-        bookService.saveBook(book);
-    }
 }
