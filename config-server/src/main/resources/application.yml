@@ -15,6 +15,9 @@ spring:
           default-label: main
           username: mrrnyash
           password: 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
+  sleuth:
+    sampler:
+      probability: 2.0
 
 eureka:
   client:

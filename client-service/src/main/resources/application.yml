@@ -9,6 +9,9 @@ eureka:
 spring:
   application:
     name: client-service
+  sleuth:
+    sampler:
+      probability: 2.0
 
 feign:
   circuitbreaker:

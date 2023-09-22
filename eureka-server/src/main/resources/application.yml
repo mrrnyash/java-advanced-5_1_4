@@ -1,6 +1,9 @@
 spring:
   application:
     name: eureka-server
+  sleuth:
+    sampler:
+      probability: 2.0
 
 server:
   port: ${PORT:8761}

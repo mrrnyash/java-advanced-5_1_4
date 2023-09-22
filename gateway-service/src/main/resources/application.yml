@@ -23,6 +23,9 @@ spring:
 #          predicates:
 #            - Path=/api/client
 #            - Method=GET
+  sleuth:
+    sampler:
+      probability: 2.0
 
 logging:
   level:
